@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="favicon/favicon.ico" />
+    <meta property="og:image" content="img/ogimg.png" />
+    <meta property="og:title" content="국립해양박물관" />
+    <meta property="og:description" content="부산광역시 국립해양박물관입니다." />
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/jquery.fullpage.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/tab.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <script src='https://code.jquery.com/jquery-3.6.0.min.js'></script>
+    <script src="js/jquery.fullpage.js"></script>
+    <script src="js/modalmenu.js"></script>
+    <script src="js/custom.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul id="menu">
+                <li data-menuanchor="section1"><a href="#section1">section1</a></li>
+                <li data-menuanchor="section2"><a href="#section2">section2</a></li>
+                <li data-menuanchor="section3"><a href="#section3">section3</a></li>
+                <li data-menuanchor="section4"><a href="#section4">section4</a></li>
+                <li data-menuanchor="section5"><a href="#section5">section5</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="modal-menu">
+        <a href="#" class="menu-close-btn"></a>
+        <ul class="menu-nav">
+            <li><a href="#chapter1">Chapter1</a></li>
+            <li><a href="#chapter2">Chapter2</a></li>
+            <li><a href="#chapter3">Chapter3</a></li>
+            <li><a href="#chapter4">Chapter4</a></li>
+            <li><a href="#chapter5">Chapter5</a></li>
+        </ul>
+    </div>
+    <main id="fullpage">
+        <section class="section">
+            <h2>section1</h2>
+            <div class="container1">
+                <!-- Slider main container -->
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <img src="img/con-banner01.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/con-banner02.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/con-banner03.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/con-banner04.gif" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="con-number">
+                        <div class="gobtn">
+                            <ul class="btnimg">
+                                <li><a href="#"><img src="img/main_prev.png" alt="배너 이전"></a></li>
+                                <li><a href="#"><img src="img/main_play.png" alt="배너 재생"></a></li>
+                                <li><a href="#"><img src="img/main_next.png" alt="배너 다음"></a></li>
+                            </ul>
+                            <ul class="number">
+                                <li><a href="#">01</a></li>
+                                <li><a href="#">02</a></li>
+                                <li><a href="#">03</a></li>
+                                <li><a href="#">04</a></li>
+                            </ul>
+                        </div>
+                    </div> -->
+                <!--//.con-number end-->
+            </div>
+
+            </div>
+        </section>
+        <section class="section">
+            <!-- <h2>section2</h2> -->
+            <div class="container">
+                <div class="con2-rollcon">
+                    <div class="rollcon_info">
+                        <p class="underline">3층 상설 전시</p>
+                        <p>해양생물</p>
+                        <p>생명이 역동하는 광활한 바다</p>
+                        <button><a href="">해양생물 자세히 보기</a></button>
+                    </div>
+                    <div class="rollcon_imgbox">
+                        <div class="rollcon_1">
+                            <img src="img/con2_04.jpg" alt="">
+                        </div>
+                    </div>
+                    <!-- <div class="rollcon_bar">
+                        <div class="p2-gobtn">
+                            <ul class="p2_btnimg">
+                                <li><a href="#"><img src="img/main_prev.png" alt="배너 이전"></a></li>
+                                <li><a href="#"><img src="img/main_play.png" alt="배너 재생"></a></li>
+                                <li><a href="#"><img src="img/main_next.png" alt="배너 다음"></a></li>
+                            </ul>
+                            <ul class="p2_number">
+                                <li><a href="#">01</a></li>
+                                <li><a href="#">02</a></li>
+                                <li><a href="#">03</a></li>
+                                <li><a href="#">04</a></li>
+                            </ul>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <!-- <h2>section3</h2> -->
+            <div class="container">
+                <div class="con3-rollcon">
+                    <div class="rollcon3_info">
+                        <p class="underline">학술행사</p>
+                        <p>무형유산으로 <br> 만나는 바다</p>
+                        <p>국립해양박물관 2022년 콜로키움</p>
+                        <button><a href="">무형유산으로 만나는 바다 자세히 보기</a></button>
+                    </div>
+                    <div class="rollcon_imgbox">
+                        <div class="rollcon3_1">
+                            <img src="img/con3_01.jpg" alt="">
+                        </div>
+                    </div>
+                    <!-- <div class="rollcon3_bar">
+                        <div class="rcb3-gobtn">
+                            <ul class="rcb3_btnimg">
+                                <li><a href="#"><img src="img/main_prev.png" alt="배너 이전"></a></li>
+                                <li><a href="#"><img src="img/main_play.png" alt="배너 재생"></a></li>
+                                <li><a href="#"><img src="img/main_next.png" alt="배너 다음"></a></li>
+                            </ul>
+                            <ul class="rcb3_number">
+                                <li><a href="#">01</a></li>
+                                <li><a href="#">02</a></li>
+                                <li><a href="#">03</a></li>
+                                <li><a href="#">04</a></li>
+                            </ul>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <!-- <h2>section4</h2> -->
+            <div class="container">
+                <div id="collection">
+                    <div class="name">
+                        <h2 class="underline">주요 소장품</h2>
+                    </div>
+                    <div class="left">
+                        <ul>
+                            <li><a href="#"><img src="img/con4_01.jpg" alt=""></a>
+                                <a href="#">이충무공전서</a>
+                                <p>한국/1795년/종이</p>
+                            </li>
+                            <li><a href="#"><img src="img/con4_02 (1).jpg" alt=""></a>
+                                <a href="#">구스의 해도첩</a>
+                                <p>네덜란드/1666년/종이,가죽</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="center">
+                        <ul>
+                            <li><a href="#"><img src="img/con4_03.jpg" alt=""></a>
+                                <a href="#">지구의와 천구의</a><br>영국/1846년/나무,종이
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="right">
+                        <ul>
+                            <li><a href="#"><img src="img/con4_04.jpg" alt=""></a>
+                                <a href="#">녹터널</a>
+                                <p>프랑스/1588년/철제·금속</p>
+                            </li>
+                            <li><a href="#"><img src="img/con4_05.jpg" alt=""></a>
+                                <a href="#">충민공계초</a>
+                                <p>한국/1662/종이</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="more"><button>주요 소장품 더보기</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <!-- <h2>section5</h2> -->
+            <div class="container">
+                <div class="p6_left">
+                    <div class="p5_info">
+                        <div class="pc-tab">
+                            <input checked="checked" id="tab1" type="radio" name="pct" />
+                            <input id="tab2" type="radio" name="pct" />
+                            <input id="tab3" type="radio" name="pct" />
+                            <input id="tab4" type="radio" name="pct" />
+                            <input id="tab5" type="radio" name="pct" />
+                              <nav>
+                                <ul>
+                                  <li class="tab1">
+                                    <label for="tab1">알림</label>
+                                  </li>
+                                  <li class="tab2">
+                                    <label for="tab2">입찰/공고</label>
+                                  </li>
+                                  <li class="tab3">
+                                    <label for="tab3">채용공고</label>
+                                  </li>
+                                  <li class="tab4">
+                                    <label for="tab4">보도자료</label>
+                                  </li>
+                                  <li class="tab5">
+                                    <label for="tab5">박물관 일정</label>
+                                  </li>
+                                </ul>
+                              </nav>
+                              <section>
+                                <div class="tab1">
+<ul>
+    <li><span class="ntc">공지</span><a href="" style="font-weight: bold;">&nbsp;기획전시 ‘한‧중 해양문명의 교류’ 연계 온라인 교육 프로그램</a><p>2022.10.07</p> </li>
+    <li><span class="ntc">공지</span><a href="" style="font-weight: bold;">&nbsp;국립해양박물관 도슨트 전시해설 프로그램 운영 안내(10.5~)</a><p>2022.10.07</p> </li>
+    <li><span class="ntc">공지</span><a href="" style="font-weight: bold;">&nbsp;기획전시 ‘한‧중 해양문명의 교류’ 연계 주말 교육 프로그램</a><p>2022.10.07</p> </li>
+    <li><span class="ntc">공지</span><a href="" style="font-weight: bold;">&nbsp;국립해양박물관 부분 휴실(3, 4층 상설전시실) 알림</a><p>2022.10.07</p> </li>
+    <li><span class="ntc">공지</span><a href="" style="font-weight: bold;">&nbsp;해양도서관 운영시간 변경 안내(22.07.12~)</a><p>2022.10.07</p> </li>
+    <li><span class="ntc">공지</span><a href="" style="font-weight: bold;">&nbsp;『해양유산(Ocean heritage)』 4호 원고모집</a><p>2022.10.07</p> </li>
+</ul>
+                                </div>
+                                <div class="tab2">
+                                    <ul>
+                                        <li><span class="ntc">공지</span><a href="" style="font-weight: bold;">&nbsp;기획전시 ‘한‧중 해양문명의 교류’ 연계 온라인 교육 프로그램</a><p>2022.10.07</p> </li>
+                                        <li><a href="" style="font-weight: bold;">&nbsp;국립해양박물관 도슨트 전시해설 프로그램 운영 안내(10.5~)</a><p>2022.10.07</p> </li>
+                                        <li><a href="" style="font-weight: bold;">&nbsp;기획전시 ‘한‧중 해양문명의 교류’ 연계 주말 교육 프로그램</a><p>2022.10.07</p> </li>
+                                        <li><a href="" style="font-weight: bold;">&nbsp;국립해양박물관 부분 휴실(3, 4층 상설전시실) 알림</a><p>2022.10.07</p> </li>
+                                        <li><a href="" style="font-weight: bold;">&nbsp;해양도서관 운영시간 변경 안내(22.07.12~)</a><p>2022.10.07</p> </li>
+                                        <li><a href="" style="font-weight: bold;">&nbsp;『해양유산(Ocean heritage)』 4호 원고모집</a><p>2022.10.07</p> </li>
+                                    </ul>
+                                </div>
+                                <div class="tab3">
+                                    <ul>
+                                        <li><span class="ntc">공지</span><a href="" style="font-weight: bold;">&nbsp;기획전시 ‘한‧중 해양문명의 교류’ 연계 온라인 교육 프로그램</a><p>2022.10.07</p> </li>
+                                        <li><span class="ntc">공지</span><a href="" style="font-weight: bold;">&nbsp;국립해양박물관 도슨트 전시해설 프로그램 운영 안내(10.5~)</a><p>2022.10.07</p> </li>
+                                        <li><span class="ntc">공지</span><a href="" style="font-weight: bold;">&nbsp;기획전시 ‘한‧중 해양문명의 교류’ 연계 주말 교육 프로그램</a><p>2022.10.07</p> </li>
+                                        <li><a href="" style="font-weight: bold;">&nbsp;국립해양박물관 부분 휴실(3, 4층 상설전시실) 알림</a><p>2022.10.07</p> </li>
+                                        <li><a href="" style="font-weight: bold;">&nbsp;해양도서관 운영시간 변경 안내(22.07.12~)</a><p>2022.10.07</p> </li>
+                                        <li><a href="" style="font-weight: bold;">&nbsp;『해양유산(Ocean heritage)』 4호 원고모집</a><p>2022.10.07</p> </li>
+                                    </ul>
+                                </div>
+                                <div class="tab4">
+                                    <ul>
+                                        <li><a href="" style="font-weight: bold;">&nbsp;기획전시 ‘한‧중 해양문명의 교류’ 연계 온라인 교육 프로그램</a><p>2022.10.07</p> </li>
+                                        <li><a href="" style="font-weight: bold;">&nbsp;국립해양박물관 도슨트 전시해설 프로그램 운영 안내(10.5~)</a><p>2022.10.07</p> </li>
+                                        <li><a href="" style="font-weight: bold;">&nbsp;기획전시 ‘한‧중 해양문명의 교류’ 연계 주말 교육 프로그램</a><p>2022.10.07</p> </li>
+                                    </ul>                                </div>
+                                <div class="tab5">
+                                    <ul>
+                                        <li>오늘은 휴관일입니다.</li>
+                                    </ul>
+                                </div>
+                              </section>
+                            </div>
+                    </div>
+                </div>
+                <div class="p6_right">
+                    <h3>팝업</h3>
+                    <div class="conbox"></div>
+                    <div class="bullet"></div>
+                    <div class="imgslide"><img src="img/con5_ban1.jpg" alt=""></div>
+                </div>
+                <div class="p6_down">
+                    <div class="down_news">
+                        <h3>영상/카드 뉴스</h3>
+                        <ul>
+                            <li><a href="#"><img src="img/con5_n1.jpg" alt="">
+                                    海피벌스데이, 국립해양박물관 10주년 기념 행사 현장!
+                                </a></li>
+                            <li><a href="#"><img src="img/con5_n2.jpg" alt="">[콜로키움] 통제영, 전통 공예의 산실(産室)
+                                    (김현구-부경역사연구소)</a></li>
+                            <li><a href="#"><img src="img/con5_n3.jpg" alt="">[海리티지#1]이순신 장군의 상징인 팔사품(八賜品)을 볼 수 있는
+                                    ‘충무공팔사품도 병풍’</a></li>
+                        </ul>
+                    </div>
+                    <div class="down_photo">
+                        <h3>포토갤러리</h3>
+                        <ul>
+                            <li><a href="#"><img src="img/con5_g1.jpg" alt="">한국-노르웨이 공동 <범지구적 도전 북극해양쓰레기> 사진전 개막</a>
+                            </li>
+                            <li><a href="#"><img src="img/con5_g2.jpg" alt="">2021년 빵! 빵! 독도버스에서 함께 놀자!</a></li>
+                            <li><a href="#"><img src="img/con5_g3.jpg" alt="">[기획전시] 심연의 상상 (~21.10.10)</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <!-- <h2>section6</h2> -->
+            <div class="container">
+                <div class="look_info">
+                    <h2>관람안내</h2>
+                    <div class="info_con1">
+                        <h4>관람시간</h4>
+                    </div>
+                    <div class="info_con2">
+                        <h4>휴관</h4>
+                        <p><span>휴관일</span>매주 월요일</p>
+                    </div>
+                    <div class="info_con3">
+                        <h4>관람료</h4>
+                        <p>무료(4D영상관, 유료특별전시 제외)</p>
+                    </div>
+                    <div class="info_con4">
+                        <h4>관람문의</h4>
+
+                        <p><span>문의</span>051.309.1900 / webmaster@macu.kr</p>
+                        <ul class="go_btn_info">
+                            <li><a href="#">해양도서관</a></li>
+                            <li><a href="#">어린이박물관</a></li>
+                            <li><a href="#">예약하기</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section fp-auto-height">
+            <!-- <h2>footer</h2> -->
+            <div class="container2">
+                <div class="footer-menu_up">
+                    <ul>
+                        <li><a href="#">관람정보</a></li>
+                        <li><a href="#">전시</a></li>
+                        <li><a href="#">교육·문화</a></li>
+                        <li><a href="#">소장품</a></li>
+                        <li><a href="#">학술연구</a></li>
+                        <li><a href="#">발간자료</a></li>
+                        <li><a href="#">KNMM</a></li>
+                    </ul>
+                </div>
+                <div class="footer-menu_down">
+                    <address style="text-decoration: none;">49111 부산광역시 영도구 해양로301번길 45 (동삼동 1156)<span><a
+                                href="#">오시는길</a></span></address>
+
+                    <div id="footer-menu_down1">
+                        <ul>해양수산전시관
+                            <li></li>
+                        </ul>
+                        <ul>세계해양박물관
+                            <li></li>
+                        </ul>
+                        <ul>관련기관
+                            <li></li>
+                        </ul>
+                    </div>
+                    <div id="footer-menu_down2">
+                        <ul>
+                            <li><a href="#">이용약관</a></li>
+                            <li><a href="#" style="font-weight: bold; color:blue;">개인정보처리방침</a></li>
+                            <li><a href="#">영상정보처리기기운영·관리방침</a></li>
+                            <li><a href="#">이메일무단수집거부</a></li>
+                            <li><a href="#">저작권정책</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <script>
+        const swiper = new Swiper(".swiper", {
+            // Optional parameters
+            direction: "horizontal",
+            loop: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+        });
+    </script>
+</body>
+</html>
